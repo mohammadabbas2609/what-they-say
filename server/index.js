@@ -9,5 +9,5 @@ app.use('/auth', authRouter)
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`What they say server running on ${PORT}`)
+  console.log(`Server running on ${PORT}`)
 });
